@@ -30,6 +30,6 @@ do "$Dodir\A3b - ethnicity forest plot.do"
 
 * Sensitivity analyses
 do "$Dodir\A4a - ethnicity sens analysis - cca.do"
-do "$Dodir\A4b - ethnicity sens analysis - as treated.do"
+do "$Dodir\A4b - ethnicity sens analysis - per protocol.do"
 do "$Dodir\A4c - ethnicity sens analysis - fu cap.do"
 do "$Dodir\A4d - ethnicity sens analysis - ipw.do"

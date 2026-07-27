@@ -12,7 +12,7 @@ DESCRIPTION OF FILE:	Sensitivity analysis using as treated exposure definition
 
 * Log
 cap log close
-log using $Logdir\A4b_ethnicity_sens_analysis_as_treated.log, replace
+log using $Logdir\A4b_ethnicity_sens_analysis_per_protocol.log, replace
 
 * Set dataset and outcomes
 local dataset mi
@@ -38,7 +38,7 @@ drop epistart epiend followup_days_`outcome'
 drop if followup_years_`outcome'==0
 
 * Create excel file
-putexcel set "$Outputdir/Ethnicity sens analysis - as treated.xlsx", sheet("`outcome'") modify
+putexcel set "$Outputdir/Ethnicity sens analysis - per protocol.xlsx", sheet("`outcome'") modify
 
 * Run ethnicity hazard ratio
 run "$Dodir\_ethnicity hazard ratios program.do"

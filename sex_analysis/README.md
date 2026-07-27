@@ -7,11 +7,11 @@ The analysis uses the study cohort generated using the scripts in the `cohort_cr
 
 The scripts perform:
 
-Descriptive analyses
-Incidence rates
-Main analysis and forest plot
-Age subgroup analysis and forest plot
-Sensitivity analysis
+1. Descriptive analyses
+2. Incidence rates
+3. Main analysis and forest plot
+4. Age subgroup analysis and forest plot
+5. Sensitivity analysis
 
 ## Workflow
 `_globals_sex.do`
